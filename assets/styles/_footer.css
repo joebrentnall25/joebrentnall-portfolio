@@ -18,7 +18,7 @@
   padding: 0 5%;
 }
 .contact-links .contact__contact .contact__container .contact__header {
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 .contact-links .contact__contact .contact__container .contact__form {
   display: grid;
