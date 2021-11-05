@@ -1,0 +1,61 @@
+@import "_variables.scss";
+
+.contact-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    .contact-links__container {
+        width: 100;
+    }
+    .contact__contact {
+        height: 80vh;
+        width: 100%;
+        background-color: $bg-color;
+
+        .contact__container {
+            width: 100%;
+            height: 100%;
+            padding: 0 5%;
+            .contact__header {
+                margin-bottom: 2rem;
+            }
+            .contact__form {
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                row-gap: 1rem;
+                padding: 1rem;
+                > label {
+                    padding: 10px;
+                }
+                > textarea {
+                    padding: 10px
+                }
+                > input {
+                    padding: 10px;
+                }
+                > input[type=submit] {
+                    grid-column: 2 / 3;
+                    background-color: $tertiary-color;
+                    border: none;
+                    color: $bg-color;
+                    font-weight: bold;
+                }
+            }            
+        }
+    }
+    .contact__links {
+        background-color: $primary-color;
+        color: $secondary-color;
+        height: 1500px;
+        .links__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            row-gap: 2rem;
+        }
+    }
+}

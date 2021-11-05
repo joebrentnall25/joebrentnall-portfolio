@@ -1,0 +1,43 @@
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #21252a;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+h4 {
+  padding-top: 0.5rem;
+  color: #21252a;
+}
+
+p {
+  font-size: 20px;
+}
+
+.key-info-primary {
+  color: #ff7d00;
+}
+
+.key-info-secondary {
+  color: #0082ff;
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+}

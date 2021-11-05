@@ -1,0 +1,43 @@
+@import "../styles/variables.scss";
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 30px;
+    color: $primary-color;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+h4 {
+    padding-top: 0.5rem;
+    color: $primary-color;
+}
+
+p {
+    font-size: 20px;
+}
+
+.key-info-primary {
+    color: $secondary-color;
+}
+
+.key-info-secondary {
+    color: $tertiary-color
+}
+
+@media screen and (min-width: 992px) { 
+    h1 {
+        font-size: 34px;
+    }
+    h2 {
+        font-size: 34px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+}
